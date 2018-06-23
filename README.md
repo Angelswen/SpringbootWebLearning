@@ -15,7 +15,7 @@ Spring boot是当今最为流行的Java web开发框架之一，支持基于注�
 
 **运行项目**
 
-在IntelliJ IDEA里面将本案例git下来，待加载完相应库之后，启动redis服务器，再运行测试程序即可观察结果。
+在IntelliJ IDEA里面将本案例git下来，待加载完相应库之后，启动redis服务器，再运行测试程序即可观察结果。redis启动后如下：
 
 ![启动redis](https://raw.githubusercontent.com/Angelswen/SpringbootWebLearning/master/imge/%E5%90%AF%E5%8A%A8redsi.png)
 
@@ -29,7 +29,11 @@ Spring boot是当今最为流行的Java web开发框架之一，支持基于注�
 
 在IDEA里面使用Spring Initializer新建项目，选择web、mybatis、redis、mysql、h2模块，初始化成功后建立对应的包，如下：
 
+新建项目：
+
 ![新建项目](https://raw.githubusercontent.com/Angelswen/SpringbootWebLearning/master/imge/%E6%96%B0%E5%BB%BAspringboot%E9%A1%B9%E7%9B%AE.png)
+
+项目结构：
 
 ![项目结构](https://raw.githubusercontent.com/Angelswen/SpringbootWebLearning/master/imge/%E9%A1%B9%E7%9B%AE%E7%BB%93%E6%9E%84.png)
 
