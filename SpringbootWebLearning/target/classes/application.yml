@@ -1,0 +1,46 @@
+spring:
+  #数据源配置
+  datasource:
+    url: jdbc:mysql://localhost:3306/testdb
+    username: root
+    password: 123456
+    driver-class-name: org.gjt.mm.mysql.Driver
+
+  redis:
+    database: 3
+    host: localhost
+    port: 6379
+    password:
+    timeout: 0
+    pool:
+      max-active: 8
+      max-idle: 8
+      min-idle: 0
+      max-wait: -1
+
+#服务器配置
+server:
+  port: 8081
+
+#mybatis配置
+mybatis:
+  type-aliases-package: com.vechace.weblearning.Dao.domain
+  mapper-locations:
+    - mappers/ProductMapper.xml
+
+logging:
+  level:
+    com.vechace.weblearning: DEBUG
+
+---
+spring:
+  profiles: test
+  datasource:
+    url: jdbc:h2:mem:test
+    username: root
+    password: 123456
+    driver-class-name: org.h2.Driver
+    schema: classpath:schema.sql
+    data: classpath:data.sql
+
+
