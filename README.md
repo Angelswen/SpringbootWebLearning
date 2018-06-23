@@ -23,7 +23,8 @@ Spring boot是当今最为流行的Java web开发框架之一，支持基于注�
 
 以商品（Product）处理为例，根据需求分析，需要编写根据productId查询product信息的get接口、更新product信息的put接口，画出MVC分层设计结构的类图，如下：
 
-(类图)
+![类图](https://raw.githubusercontent.com/Angelswen/SpringbootWebLearning/master/imge/%E7%B1%BB%E5%9B%BE.png)
+
 
 **Spring boot快速构建应用**
 
